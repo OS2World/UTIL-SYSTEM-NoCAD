@@ -1,0 +1,19 @@
+# IBM Developer's Workframe/2 Make File Creation run at 20:16:54 on 02/06/93
+
+# Make File Creation run in directory:
+#   E:\SOURCE\NOCAD;
+
+# Assumed INCLUDE environment variable path:
+#   F:\IBMC\INCLUDE;
+#   F:\IBMC\IBMCLASS;
+#   E:\TOOLKT20\C\OS2H;
+#   E:\TOOLKT20\ASM\OS2INC;
+
+
+NoCad.OBJ:  NoCad.C  \
+#  {$(INCLUDE);}os2.h  \
+#  {$(INCLUDE);}stdio.h  \
+#  {$(INCLUDE);}stdlib.h  \
+#  {$(INCLUDE);}stddef.h  \
+#  {$(INCLUDE);}string.h  \
+   MAKEFILE

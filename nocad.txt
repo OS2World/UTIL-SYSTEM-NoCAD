@@ -1,0 +1,6 @@
+NoCAD - turns ON/OFF reboot on CTRL+ALT+DELETE
+
+Usage:
+
+NoCAD ON	Turn on reboot function when CTRL+ALT+DELETE is pressed
+NoCAD OFF	Turn off CTRL+ALT+DELETE reboot

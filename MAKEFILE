@@ -1,0 +1,26 @@
+# IBM Developer's Workframe/2 Make File Creation run at 20:16:54 on 02/06/93
+
+# Make File Creation run in directory:
+#   E:\SOURCE\NOCAD;
+
+.SUFFIXES:
+
+.SUFFIXES: .c
+
+nocad.exe:  \
+  NoCad.OBJ \
+  MAKEFILE
+   @REM @<<NOCAD.@0
+     /CO +
+     NoCad.OBJ
+     nocad.exe
+     
+     
+     ;
+<<
+   LINK386.EXE @NOCAD.@0
+
+{.}.c.obj:
+   ICC.EXE /Ti /C .\$*.c
+
+!include MAKEFILE.DEP
